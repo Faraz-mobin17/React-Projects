@@ -1,0 +1,31 @@
+html,
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  accent-color: #52bab3;
+  color: white;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+input[type="range"] {
+  accent-color: #52bab3;
+}
+
+label {
+  vertical-align: middle;
+  font-size: 16px;
+}
